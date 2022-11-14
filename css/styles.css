@@ -1,2 +1,68 @@
-h1 { color:blue} 
-body {background-color:burlywood }
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: #DD7230;
+    text-decoration: underline;
+}
+
+h2 {
+    color: #51263D;
+    font-family: serif;
+    ;
+
+}
+
+h3 {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h4 {
+    text-decoration: line-through;
+    font-family: monospace
+}
+
+a:link {
+    color: red
+}
+
+a:visited {
+    color: blue
+}
+
+a:hover {
+    color: yellow font-size: 30px text-decoration: underline;
+}
+
+a:active {
+    color: peru
+}
+
+body {
+    background-color: #C9D6D6
+}
+
+table {
+    border-spacing: 0;
+    margin-bottom: 20px;
+}
+
+th {
+    border: 2px double black;
+    padding: 3px;
+
+}
+
+td {
+    border: 1px solid grey;
+
+}
+
+img {
+    width: 200px;
+    border: 3px solid goldenrod;
+    border-radius: 10px;
+    padding: 10px;
+    opacity: 0.5;
+
+}
