@@ -1,0 +1,30 @@
+body {
+    color:black #session {
+        color: rebeccapurple;
+    }
+
+    #session1 {
+        color: blue;
+    }
+
+    div>h1 {
+        color: blueviolet;
+    }
+
+    .paragraph {
+        background-image: url("images.jpg");
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+
+    div {
+        border: black solid;
+    }
+
+    image {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 300px;
+        border: 3px solid #73AD21;
+    }
