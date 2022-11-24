@@ -3,7 +3,6 @@
 
 <head>
   <meta charset="UTF-8" />
-  <!-- Lesson 8,responsive! -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/styles.css" />
   <title>Assignment in progress</title>
@@ -37,7 +36,7 @@
     <li> <a href="https://coolors.co" target="_blank" title="Page to choose nice colours">Help to pick your colours</a>
     </li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">HTML elements</a></li>
-    <li><a href="https://www.w3schools.com/css/css_rwd_intro.asp" target="_blank" </a> </li>
+    <li><a href="https://www.w3schools.com/css/css_rwd_intro.asp" target="_blank"> </a> </li>
   </ol>
   <h1> Lesson 2 </h1>
   <h2>Links to other pages, Example "contact Us"</h2>
@@ -77,9 +76,9 @@
       </tfoot>
     </table>
   </div>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"><img src="images/html.jpg"
-      alt="html tutorial" /></a>
-  <script src="js/main.js"></script>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+    <img id="ihtml" src="images/html.jpg" alt="html tutorial" /></a>
+
   <h1><a href="Class4/Index2.html"> Lesson 4 </A></h1>
   <h2>Divs(block elements, container or sections), Spans(inline elements), Ids and classes</h2>
   <h3>Dont forget sup,sub,del,ins,em(emphasised, b,i,u) and strong tags </h3>
@@ -97,7 +96,7 @@
   <h2>CSS Selectors</h2>
   <p></p>We target a particular elements by class or Id, using ().) or # respectibely </p>
   <h2> Descendant Selectors</h2>
-  <p>The descendant of an HTML element is <strong>any</strong> elemnet that appears inside that element</p>
+  <p>The descendant of an HTML element is <strong>any</strong> element that appears inside that element</p>
   <h2>Example</h2>
   <h3><span class="span1">div span</span><span class="curly">{</span> background-color: yellow<span
       class="curly">}</span></h3>
@@ -116,7 +115,7 @@
   <h2>Position</h2>
   <ul>
     <li><strong>Static</strong> is the defaul Position, is in its usual Position within the page</li>
-    <li><strong>Relative</strong>Displaces the element relative to its usual Position(Top,LEft,Bottom,Right control it)
+    <li><strong>Relative</strong>Displaces the element relative to its usual Position(Top,Left,Bottom,Right control it)
     </li>
     <li><strong>Absolute</strong>Positions the element relative to its closest ancestor with a position that is not
       static</li>
@@ -124,8 +123,78 @@
   </ul>
   <h1>Lesson 6</h1>
   <h1>Lesson 7</h1>
+  <!-- Lesson 8,responsive! -->
   <h1>lesson 8 </h1>
   <h2>Responsive web design</h2>
+  <h3>Make your page look nice even in smaller devices, adding the folling like in the head element </h3>
+  <h5>meta name="viewport" content="width=device-width, initial-scale=1.0</h5>
+  <h1>Lesson 9</h1>
+  <h2>HTML FORMS</h2>
+  <ul>
+    <il>Input Elements</il>
+    <ol>input type = text</ol>
+    <ol>input type = Email</ol>
+    <ol>input type = Password</ol>
+    <ol>input type = Submit</ol>
+    <il>Textarea</il>
+    <il>Multichoice Fiels</il>
+    <ol>Dropdowns</ol>
+    <ol>checkboxes</ol>
+    <ol>Radio Buttons</ol>
+    <il>Action & Method</il>
+    <ol>Action takes care of where form data is sent</ol>
+    <ol>Method take care of how is sent</ol>
+  </ul>
+  <h3>Example</h3>
+<div id="form">
+  <form>
+    <div>
+      <label>
+        <h5>Full name</h5>
+        <input type="text" name="name" placeholder="Full Name">
+      </label>
+    </div>
+    <div>
+      <label>
+        <h5>Email</h5>
+        <input type="email" name="email" placeholder="Email*">
+      </label>
+    </div>
+    <div>
+      <label>
+        <h5>State</h5>
+        <select name="State">
+          <option value="">Choose a state</option>
+          <option value="Vic">Victoria</option>
+          <option value="Nsw">New South Wales</option>
+          <option value="NT">Northern Territory</option>
+          <option value="Qld">Queensland</option>
+          <option value="SA">South Australia</option>
+          <option value="WA">Western Australia</option>
+          <option value="Tas">Tasmania</option>
+        </select>
+      </label>
+    </div>
+    <div>
+      <h5>Desire way to be contacted by</h5>
+      <input type="radio" name="by" id="phone" value="Phone">
+      <label for="Phone">Phone</label>
+    </div>
+    <div>
+      <input type="radio" name="by" id="Email" value="Email">
+      <label for="Email">Email address</label>
+    </div>
+    <div>
+      <label>
+        <h5>Comments</h5>
+        <textarea name="comment" cols="10" rows="8">Anything that you wanna tell us</textarea>
+      </label>
+    </div>
+    <div>
+      <input type="submit" value="Sign up">
+    </div>
+  </form>
+</div>
 </body>
 
 </html>

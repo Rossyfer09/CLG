@@ -8,7 +8,6 @@ h1 {
 h2 {
     color: #51263D;
     font-family: serif;
-    ;
 
 }
 
@@ -23,7 +22,7 @@ h4 {
 }
 
 #menu {
-    background-color: rgb(145, 146, 219);
+    background-color: rgb(116, 156, 153);
     display: block
 }
 
@@ -36,7 +35,9 @@ a:visited {
 }
 
 a:hover {
-    color: yellow font-size: 30px text-decoration: underline;
+    color: yellow;
+    font-size: 30px;
+    text-decoration: underline;
 }
 
 a:active {
@@ -52,12 +53,12 @@ span {
 }
 
 table {
-    border-spacing: 0;
+    border: solid black;
     margin-bottom: 20px;
 }
 
 th {
-    border: 2px double black;
+    border: solid black;
     padding: 3px;
 
 }
@@ -67,11 +68,19 @@ td {
 
 }
 
+#ihtml {
+    width: 200px;
+    height: 200px;
+    border: 3px solid yellowgreen;
+    border-radius: 50%;
+    padding: 5px;
+    opacity: 1.0;
+}
+
 img {
     width: 200px;
     height: 200px;
     border: 3px solid yellowgreen;
-    border-radius: 1mm;
     padding: 5px;
     opacity: 1.0;
 
@@ -87,7 +96,7 @@ img {
 div {
     border-radius: 4px solid red;
     border-color: red;
-    background-color: rgba(192, 204, 255, 0.815);
+
 }
 
 .span1 {
@@ -96,4 +105,10 @@ div {
 
 .curly {
     color: yellow
+}
+
+form {
+    border:solid slategray;
+    background-color: rgb(157, 193, 235);
+    width: 200px;
 }

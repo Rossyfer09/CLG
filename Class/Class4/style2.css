@@ -1,30 +1,33 @@
 body {
-    color:black #session {
-        color: rebeccapurple;
-    }
+    color: black
+}
 
-    #session1 {
-        color: blue;
-    }
+#session {
+    color: rebeccapurple;
+}
 
-    div>h1 {
-        color: blueviolet;
-    }
+#session1 {
+    color: blue;
+}
 
-    .paragraph {
-        background-image: url("images.jpg");
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+div>h1 {
+    color: blueviolet;
+}
 
-    }
+.paragraph {
+    background-image: url("images.jpg");
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-    div {
-        border: black solid;
-    }
+}
 
-    image {
-        position: fixed;
-        bottom: 0;
-        right: 0;
-        width: 300px;
-        border: 3px solid #73AD21;
-    }
+div {
+    border: black solid;
+}
+
+#image {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
+}
