@@ -108,15 +108,13 @@ form {
 
 }
 
-.form1{
+.form1 {
     background-color: azure;
 }
+
 /*responsive design*/
 @media(max-width:768px) {
     .catalogo {
         flex-direction: column;
     }
 }
-
-
-
