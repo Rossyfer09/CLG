@@ -13,7 +13,7 @@
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
-    padding: 20px;
+    padding: 10px 0;
     height: 70px;
     width: 100%;
     background-color: rgba(68, 68, 68, .3);
@@ -34,11 +34,13 @@
     width: 100%;
     margin: auto;
     padding: 20px;
+    position: relative;
+    top: 85px;
 }
 
-#menu>h1 {
+/*#menu>h1 {
     border: 2px rgb(198, 185, 204);
-}
+}*/
 
 /* banner*/
 
