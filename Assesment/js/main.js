@@ -1,9 +1,3 @@
-function bigger(){
-    let highlight =document.querySelector(".letras");
-    highlight.style.color ="orange";
-    highlight.style.fontSize = "30px";
-}
-
 let startTime = '8 am'
 
 function logHours () {
@@ -12,5 +6,7 @@ function logHours () {
 }
 
 logHours();
+// shows error as entime can be reach outside the function logHours
+console.log(endTime);
 
-console.log(endTime)
+
