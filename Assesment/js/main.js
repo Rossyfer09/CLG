@@ -19,8 +19,8 @@ const schoolofCode = (age >18) ? "You are in!" : "Check out code camps..";
 console.log(schoolofCode);*/
 
 //lopps example
-for (let winner =4; winner < 10; winner++){
-    console.log("we have a " + winner + " the winner");
-}
+//for (let winner =4; winner < 10; winner++){
+  //  console.log("we have a " + winner + " the winner");
+//}
 
 
